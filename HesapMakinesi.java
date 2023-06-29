@@ -24,6 +24,8 @@ public class HesapMakinesi {
             case 4:
                 System.out.print(sayi1/sayi2);
                 break;
+            default:
+                System.out.print("yanlış tuşlama yaptınız");
         }
     }
 }
