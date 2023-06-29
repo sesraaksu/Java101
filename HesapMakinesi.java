@@ -11,21 +11,12 @@ public class HesapMakinesi {
         System.out.print("yapmak istediğiniz işlemi seçiniz :\n1 - Toplama\n2 - Çıkarma\n3 - Çarpma\n4 - Bölme\n");
         secim = imput.nextInt();
 
-        switch (secim){
-            case 1:
-                System.out.print(sayi1+sayi2);
-                break;
-            case 2:
-                System.out.print(sayi1-sayi2);
-                break;
-            case 3:
-                System.out.print(sayi1*sayi2);
-                break;
-            case 4:
-                System.out.print(sayi1/sayi2);
-                break;
-            default:
-                System.out.print("yanlış tuşlama yaptınız");
+        switch (secim) {
+            case 1 -> System.out.print(sayi1 + sayi2);
+            case 2 -> System.out.print(sayi1 - sayi2);
+            case 3 -> System.out.print(sayi1 * sayi2);
+            case 4 -> System.out.print(sayi1 / sayi2);
+            default -> System.out.print("yanlış tuşlama yaptınız");
         }
     }
 }
