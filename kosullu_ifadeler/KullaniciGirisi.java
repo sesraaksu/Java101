@@ -1,3 +1,5 @@
+package kosullu_ifadeler;
+
 import java.util.Scanner;
 public class KullaniciGirisi {
     public static void main(String[] args) {

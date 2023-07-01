@@ -1,3 +1,5 @@
+package kosullu_ifadeler;
+
 import java.util.Scanner;
 public class Heat {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package kosullu_ifadeler;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
